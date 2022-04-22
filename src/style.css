@@ -14,6 +14,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 
 li {
   list-style: none;
@@ -25,7 +28,7 @@ li {
   line-height: 19px;
 }
 
-li::first-letter {
+li:first-letter {
   text-transform: capitalize;
 }
 .weather-app-wrapper {
@@ -59,4 +62,14 @@ li::first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
