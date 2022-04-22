@@ -27,6 +27,13 @@ li {
   font-weight: 100;
   line-height: 19px;
 }
+.weather-app {
+  background: radial-gradient(
+    401px at 50.6% -0.3%,
+    rgba(255, 255, 255, 0.31) 1.2%,
+    rgb(36, 212, 219) 100.2%
+  );
+}
 
 li:first-letter {
   text-transform: capitalize;
